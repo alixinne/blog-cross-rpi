@@ -1,0 +1,11 @@
+Read users from static data: [
+    User {
+        name: "StaticAlice",
+        age: 42,
+    },
+    User {
+        name: "StaticBob",
+        age: 69,
+    },
+]
+Python feature disabled.

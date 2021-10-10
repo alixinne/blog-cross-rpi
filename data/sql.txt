@@ -1,0 +1,11 @@
+Read users from sqlite: [
+    User {
+        name: "Alice",
+        age: 42,
+    },
+    User {
+        name: "Bob",
+        age: 69,
+    },
+]
+Python feature disabled.

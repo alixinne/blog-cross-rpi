@@ -1,0 +1,13 @@
+[package]
+name = "blog-cross-rpi"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+color-eyre = "0.5"
+pyo3 = { version = "0.14", features = ["auto-initialize"], optional = true }
+sqlite = { version = "0.26", optional = true }
+
+[features]
+python = ["pyo3"]
+sql = ["sqlite"]
