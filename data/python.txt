@@ -1,11 +1,11 @@
 Read users from static data: [
     User {
         name: "StaticAlice",
-        age: 42,
+        age: 42.5,
     },
     User {
         name: "StaticBob",
-        age: 69,
+        age: 69.69,
     },
 ]
 ['StaticAlice', 'StaticBob']

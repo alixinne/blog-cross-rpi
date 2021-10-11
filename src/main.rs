@@ -7,7 +7,7 @@ use pyo3::prelude::*;
 #[derive(Default, Debug, Clone)]
 struct User {
     name: String,
-    age: i64,
+    age: f64,
 }
 
 /// Get users from the SQLite database
@@ -21,8 +21,8 @@ fn get_users() -> Result<Vec<User>> {
     connection.execute(
         "
         CREATE TABLE users (name TEXT, age INTEGER);
-        INSERT INTO users VALUES ('Alice', 42);
-        INSERT INTO users VALUES ('Bob', 69);
+        INSERT INTO users VALUES ('Alice', 42.5);
+        INSERT INTO users VALUES ('Bob', 69.69);
         ",
     )?;
 
@@ -45,11 +45,11 @@ fn get_users() -> Result<Vec<User>> {
     Ok(vec![
         User {
             name: "StaticAlice".into(),
-            age: 42,
+            age: 42.5,
         },
         User {
             name: "StaticBob".into(),
-            age: 69,
+            age: 69.69,
         },
     ])
 }
