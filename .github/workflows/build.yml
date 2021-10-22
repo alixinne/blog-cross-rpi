@@ -24,5 +24,4 @@ jobs:
         with:
           use-cross: true
           command: build
-          args: --all-features
-          target: ${{ matrix.target }}
+          args: --all-features --target ${{ matrix.target }}
