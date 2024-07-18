@@ -1,7 +1,7 @@
-# [blog-cross-rpi](https://github.com/vtavernier/blog-cross-rpi)
+# [blog-cross-rpi](https://github.com/alixinne/blog-cross-rpi)
 
 Example repository for the post [I tried cross-compiling for the Raspberry
-Pi](https://vtavernier.github.io/posts/i-tried-cross-compiling/).
+Pi](https://alixinne.github.io/posts/i-tried-cross-compiling/).
 
 ## Getting started
 
@@ -24,4 +24,4 @@ Compile for the Raspberry Pi Zero with [`cross`](https://github.com/rust-embedde
 
 ## Author
 
-Vincent Tavernier <vince.tavernier@gmail.com>
+Alixinne <alixinne@pm.me>
